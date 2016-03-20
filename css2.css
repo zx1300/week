@@ -1,0 +1,101 @@
+*{margin:0;padding:0;}
+body, input, textarea, select, button, table {font-size:100%;}
+body{font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif,sans-serif;-webkit-text-size-adjust:none;min-width:320px;color:#222;}
+ul,li{list-style:none;}
+input, textarea{outline: 0;resize: none;}
+input, textarea, keygen, select, button {margin: 0em;font: 13.3333px Arial;text-rendering: auto;letter-spacing: normal;word-spacing: normal;text-transform: none;text-indent: 0px;text-shadow: none;display: inline-block;text-align: start;}
+
+
+
+
+.fl{float:left;}
+.fr{float:right;}
+img{border:0;}
+a{text-decoration:none;}
+.pos_abs{position:absolute;}
+
+
+
+
+.xlz_header{width:100%;height:44px;line-height:44px;background:#f5f2f6;position:relative;text-align:center;}
+.header_arrow{position:absolute;display:block;width:12px;height:13px;background:url(images/icon_button_back2x.png) no-repeat;background-size:12px 13px;left:30px;top:16px;}
+.header_title{font-size:1em;color:#484f52;text-align:center;font-weight:100;}
+.threedot{display:block;width:18px;height:5px; position:absolute;right:30px;top:20px;background:url(images/icon_y_threedot2x.png) no-repeat;background-size:18px 5px;}
+
+.person{width:96%;padding:10px 2%;background:#f5f2f6;overflow:hidden;}
+.person .person_info_pic{width:40px;height:40px;display:block;margin-right:6px;}
+.person .person_info_pic img{width:100%;max-width:100%;}
+.person .person_name a{font-size:0.875em;color:#000;}
+.person .person_name span{color:#81868a;font-size:0.75em;margin-right:6px;}
+.person .focus{display:block;width:51px;height:19px;background:url(images/fllow.png) no-repeat;margin-top:12px;}
+
+.video{width:100%;}
+.video img{width:100%;max-width:100%;}
+
+.title{width:94%;padding:6px 3%;}
+.title h3{font-size:1em;font-weight:100;width:94%;line-height:24px;color:#000;margin-bottom:4px;}
+.title p{color:#9a9a9a;font-size:0.875em;}
+.title .tip{border:1px solid #c6c6c6;border-radius:4px;padding:2px 6px;display:inline-block;font-size:0.65em;margin-right:3px;}
+.title .play{margin-right:30px;}
+.title .play i{margin-right:3px;display:inline-block;width:11px;height:12px;background:url(images/u_rightarrow2x.png) no-repeat;background-size:11px 12px;}
+.title .comment i{margin-right:3px;display:inline-block;width:12px;height:10px;background:url(images/icon_chatkuang2x.png) no-repeat;background-size:12px 10px;}
+
+.view{width:100%;height:65px;background:#f5f2f6; position:relative;}
+.view .reward{left:20px;top:10px;width:42px;height:41px;background:url(images/icon_y_shang2x.png) no-repeat;background-size:42px 41px;display:block;}
+.view .like{background-image:url(images/icon_d_r12x.png);right:50%;}
+.view .number{color:#a5a4a5;display:block;width:42px;margin-right:5px;text-align:center;font-size:0.65em;bottom:25px;}
+.view .like_number{right:50%;}
+.view .unlike{background-image:url(images/icon_d_r22x.png);right:35%;}
+.view .collect{background-image:url(images/icon_d_r32x.png);right:20%;}
+.view .collect_number{right:20%;}
+.view .forward{background-image:url(images/icon_d_r42x.png);right:5%;}
+.view .forward_number{right:5%;}
+.view .icon_d_arrow{bottom:0;left:29px;background:url(images/icon_d_arrow2x.png) no-repeat;display:block;width:24px;height:8px;background-size:24px 8px;}
+.view .same4{margin-right:5px;display:blcok;width:42px;height:54px;background-size:42px 54px;bottom:-30px;background-repeat:no-repeat;}
+.view .unlike_number{right:35%;}
+.icon_downarrow{bottom:-20px;left:22px;font-size:0.625em;color:#555;}
+.icon_downarrow i{display:inline-block;margin:1px 0 0 3px;background:url(images/icon_downarrow2x.png) no-repeat;width:14px;height:14px;background-size:14px 14px;}
+.classmate{padding:40px 2%;}
+.classmate ul{width:85%;}
+.classmate ul li{width:31px;float:left;margin-right:6px;}
+.classmate ul li img{max-width:100%;width:100%;}
+.classmate .class_more{display:block;width:10%;height:31px;background:url(images/icon_rightarrow2x.png) no-repeat;background-size:31px 31px;}
+
+.comment_area{border-top:16px solid #f4f2f7;}
+.comment_area h3{padding:10px 3%;font-weight:100;margin-bottom:10px;border-bottom:1px solid #ccccce;font-size:1em;color:#565656;}
+.comment_area dl{padding:10px 2%;width:96%;border-bottom:1px solid #c7c7c9;overflow:hidden;position:relative;}
+.comment_area dl dt{width:40px;margin-right:10px;}
+.comment_area dl dt img{max-width:100%;width:100%;}
+.comment_area dd.name h4{font-size:1em;color:#7f7f7f;font-weight:100;}
+.comment_area dd.name .time{color:#ababab;font-size:0.825em;}
+.comment_area dd.name .replay{display:inline-block;width:26px;height:25px;background:url(images/u_chatbubble2x.png) no-repeat;background-size:26px 25px;position:absolute;right:2%;top:15px;}
+.comment_area dd.content{padding-left:50px;color:#565656;font-size:0.875em;padding-top:3px;overflow:hidden;clear:both;}
+.comment_area dd.content span{color:#3e70eb;margin-right:6px;}
+.comment_write{width:92%;padding:10px 4%;overflow:hidden;clear:both;background:#f7f7f9;}
+.comment_write textarea{display:block;border:px solid #c8c8c8;border-radius:5px;color:#c8c7cc;font-size:1em;padding:6px 4px;width:65%;height:20px;}
+.comment_write .face{display:inline-block;width:30px;height:30px;background:url(images/icon_smile2x.png) no-repeat;background-size:30px 30px;margin:0 16px 0 10px;}
+.comment_write .btn{border:none;font-size:1.25em;color:#676767;background:none;line-height:30px;font-family:"microsoft yahei",Verdana,Arial,Helvetica,sans-serif,sans-serif;margin-right:10px;}
+
+
+@media screen and (min-width:374px) { 
+.comment_area h3,.comment_area dd.name h4{font-size:1.25em;}
+.comment_area dd.name .time,.comment_area dd.content{font-size:1em;}
+} 
+@media screen and (min-width:413px) { 
+.comment_area h3,.comment_area dd.name h4,.title h3{font-size:1.5em;}
+.comment_area dd.name .time,.comment_area dd.content{font-size:1.25em;}
+.title p,.person .person_name a{font-size:1.125em;}
+.person .person_name span,.title .tip,.icon_downarrow{font-size:1em;}
+
+.title .play i{width:15px;height:16px;background-size:15px 16px;margin-top:4px;}
+.title .comment i{width:16px;height:13px;background-size:16px 13px;margin-top:4px;}
+.view .reward{width:50px;height:50px;background-size:50px 50px;}
+.view{height:70px;}
+.icon_downarrow{bottom:-30px;}
+.icon_downarrow i{width:18px;height:18px;background-size:18px 18px;}
+.view .same4{width:48px;height:60px;background-size:48px 60px;}
+} 
+
+
+
+
